@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+img {
+    height: 500px;
+    margin-left: 100px;
+    border: 25px solid aqua;
+    padding: 50px;
+    border-radius: 50%;
+    animation: fanaim linear infinite;
+}
+
+@keyframes fanaim {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    padding: 20px 30px;
+    margin: 0 20px;
+    font-size: 25px;
+    font-weight: 500;
+    border: none;
+    background: silver;
+    border-radius: 50%;
+    transition: 0.1s;
+    color: #fff;
+}
+
+#container button:nth-last-child(5) {
+    background-color: rgb(0, 255, 0);
+}
+
+#container button:nth-last-child(4) {
+    background-color: red;
+}
+
+button:active {
+    box-shadow: 0 10px 10px black;
+    transform: scale(0.95);
+}
+
+.one {
+    background: gray;
+}
+
+.two {
+    background: gray;
+}
+
+.three {
+    background: gray;
+}

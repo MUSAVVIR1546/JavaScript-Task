@@ -19,7 +19,7 @@ body {
     border-radius: 15px;
     padding: 10px 20px 20px;
     background: darkslategrey;
-    
+
 }
 
 .display {
@@ -29,11 +29,11 @@ body {
     border-radius: 15px;
     margin-bottom: 10px;
     text-align: right;
-    color: black ;
+    color: black;
     font-size: 25px;
     border: none;
     outline: none;
-    
+
 }
 
 #buttons {
